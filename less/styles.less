@@ -1,0 +1,153 @@
+@primary-text-color:#ffff;
+@secondary-text-color:#B75D69;
+@tercer-color:#EACDC2;
+@background_color_1: #1A1423;
+
+
+.colorfondo {
+	background-color: @background_color_1;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section [id]{
+   scroll-margin-top:70px ;
+
+}
+
+.col-6 {
+    justify-content: center;
+    padding-left: 7rem;
+    color: @primary-text-color;
+    margin: 4rem;
+
+}
+.titulo-h3{
+    color: @secondary-text-color;
+}
+.titulo-h4{
+    color: @tercer-color;
+}
+.img-perfil{
+    margin: 3rem;
+    border: 7px solid #774C60;
+}
+.img-mujerpc{
+    width: 40%;
+    padding: 2rem;
+    justify-content: center;
+    margin-left: 1rem;
+    
+}
+.colorfondopag2{
+    background-color: #E7D7C1;
+    
+}
+.container-fluid3{
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30rem;
+}
+
+.container-fluid5{
+    background-color: @background_color_1;
+}
+
+.h1c5-color{
+    color: @secondary-text-color;
+}
+
+
+.seccioncontacto{
+    
+    margin: 0 auto;
+}
+
+.cabeceracontacto h2{
+    font-size: 3rem;
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: @secondary-text-color;
+}
+
+
+.contenedor-contacto{
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    align-items: center;
+   
+}
+
+.contenedor-contacto img{
+   width: 450px;
+   grid-column: 1/5;
+   margin: 0 auto;
+}
+
+.form-contacto{
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 1rem;
+    grid-column: 5/20;
+    padding: 10rem;
+    display: flex;
+    color: @background_color_1;
+}
+
+.formulario{
+    margin-top: 1rem;
+    
+}
+
+.formulario input{
+
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid @tercer-color;
+    color: "black";
+}
+
+.formulario textarea{
+    height: 150px;
+    background: none;
+    color: "black";
+    padding: 1.5rem;
+    border: 3px solid @tercer-color;
+}
+
+.btn-enviar{
+    padding: 10px 20px;
+    margin: 1rem;
+    border: none;
+    background-color: #774C60;
+    border-radius: 20px;
+}
+
+.btn-enviar:hover{
+    background-color: #EACDC2;
+}
+
+
+
+
+
+
+
